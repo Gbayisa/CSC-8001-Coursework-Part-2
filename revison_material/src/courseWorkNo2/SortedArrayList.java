@@ -1,68 +1,33 @@
-package courseWorkNo2;
+package sortedArrayListCoursework;
 
 import java.util.ArrayList;
 
+/**
+ * 
+ * @author Gideon Bayisa
+ *
+ * @param <E>
+ */
 public class SortedArrayList<E extends Comparable<E>> extends ArrayList<E> {
-
+	/**
+	 * Generic Sorted ArrayList class that utilises the inherited compare to
+	 * functionality.
+	 */
 	public SortedArrayList() {
 		super();
+
 	}
 
 	@Override
 	public boolean add(E e) {
-		int i = this.size() - 1;
 
-		for (i = 0; i < size(); i++) {
-
-			// if (this.get(i).compareTo(get((int) e)) < 0 ) {
-			super.add(e);
-			if (e.compareTo(get(i)) < 0) {
-
+		for (int i = 0; i < size(); i++) {
+			if ((e).compareTo(get(i)) < 0) {
+				super.add(i, e);
+				return true;
 			}
-
 		}
-		return true;
-
+		return super.add(e);
 	}
+
 }
-
-//        while (i > 0) {
-//            parent = this.getParentIndex(i);
-//
-//            if (this.get(i).compareTo(this.get(parent)) < 0) {
-//                this.swap(i, parent);
-//            } else {
-//                break;
-//            }
-//        }
-//        return true;
-//    }
-
-//	ArrayList<T> list = new ArrayList<>();
-//
-//	public void addElement(Comparable<String> string) {
-//		list.add((T) string);
-//	}
-//
-//	public void removeElement(T element) {
-//		list.remove(element);
-//	}
-//
-//	public String toString() {
-//		return list.toString();
-//	}
-//
-//	public T get(int i) {
-//		// TODO Auto-generated method stub
-//		return list.get(i);
-//	}
-//
-//	@Override
-//	public int compareTo(T o) {
-//		// TODO Auto-generated method stub
-//		return 0;
-//	}
-//}
-/// if id is equal - return 0
-// if id is less than value - return -1
-// if id is more than value - return 1

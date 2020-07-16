@@ -1,57 +1,62 @@
-package courseWorkNo2;
+package sortedArrayListCoursework;
 
-import java.util.ArrayList;
-
+/**
+ * 
+ * @author Gideon Bayisa
+ *
+ */
 public class Event implements Comparable<Event> {
 
-	private int noOfEvents;
-	private String eventInfo;
+	private String eventName;
+	private int noOfTickets;
 
-	ArrayList<Event> events = new ArrayList<Event>();
-
-	public Event(int noOfEvents, String eventInfo) {
+	/**
+	 * 
+	 * @param eventName
+	 * @param noOfTickets
+	 */
+	public Event(String eventName, int noOfTickets) {
 		super();
-		this.noOfEvents = noOfEvents;
-		this.eventInfo = eventInfo;
+		this.eventName = eventName;
+		this.noOfTickets = noOfTickets;
 	}
 
-	public void addToListEvent(Event newEvent) {
-		events.add(newEvent);
-	}
-
-	public int getnoOfEvents() {
-		return noOfEvents;
-	}
-
-	public void setnoOfEvents(int noOfEvents) {
-		this.noOfEvents = noOfEvents;
-	}
-
-	public String getEventInfo() {
-		return eventInfo;
-	}
-
-	public void setEventInfo(String eventInfo) {
-		this.eventInfo = eventInfo;
-	}
-
-	public int compareTo1(Event e) {
-		int lnCmp = eventInfo.compareTo(e.eventInfo);
+	@Override
+	public int compareTo(Event e) {
+		int lnCmp = eventName.compareTo(e.eventName);
 		if (lnCmp != 0)
 			return lnCmp;
 		else
 			return 0;
+	}
 
+	public int getnoOfEvents() {
+		return noOfTickets;
+	}
+
+	/**
+	 * 
+	 * @param noOfEvents
+	 */
+	public void setnoOfEvents(int noOfEvents) {
+		this.noOfTickets = noOfEvents;
+	}
+
+	public String getEventName() {
+		return eventName;
+	}
+
+	/**
+	 * 
+	 * @param eventName
+	 */
+	public void setEventName(String eventName) {
+		this.eventName = eventName;
 	}
 
 	@Override
-	public int compareTo(Event that) {
-		// TODO Auto-generated method stub
-		return Integer.compare(this.noOfEvents, that.noOfEvents);
-	}
-
 	public String toString() {
-		return noOfEvents + " " + eventInfo;
+		return eventName + " " + noOfTickets;
 	}
 
 }

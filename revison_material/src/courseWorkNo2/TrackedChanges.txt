@@ -1,0 +1,280 @@
+f - to finish running the program.
+e - to display on the screen the information about all the events.
+c - to display on the screen the information about all the clients.
+b - to update the stored data when tickets are bought by one of the registered clients.
+r - to update the stored data when a registered client cancels/returns tickets.
+e
+[Athletics 4, Equestrian Jumping 7, Football 2, Handball 66, Tennis 8, Volleyball 41]
+f - to finish running the program.
+e - to display on the screen the information about all the events.
+c - to display on the screen the information about all the clients.
+b - to update the stored data when tickets are bought by one of the registered clients.
+r - to update the stored data when a registered client cancels/returns tickets.
+c
+[Anna Smith {}, Emma Williams {}, John Williams {}]
+f - to finish running the program.
+e - to display on the screen the information about all the events.
+c - to display on the screen the information about all the clients.
+b - to update the stored data when tickets are bought by one of the registered clients.
+r - to update the stored data when a registered client cancels/returns tickets.
+b
+please enter the first name
+Emma
+please enter the last name
+Williams
+Which event would you like to book?
+Tennis
+How many Tickets would you like to book?
+5
+f - to finish running the program.
+e - to display on the screen the information about all the events.
+c - to display on the screen the information about all the clients.
+b - to update the stored data when tickets are bought by one of the registered clients.
+r - to update the stored data when a registered client cancels/returns tickets.
+b
+please enter the first name
+Handball
+please enter the last name
+Emma
+Client not found.
+f - to finish running the program.
+e - to display on the screen the information about all the events.
+c - to display on the screen the information about all the clients.
+b - to update the stored data when tickets are bought by one of the registered clients.
+r - to update the stored data when a registered client cancels/returns tickets.
+b
+please enter the first name
+Emma
+please enter the last name
+Williams
+Which event would you like to book?
+Handball
+How many Tickets would you like to book?
+20
+f - to finish running the program.
+e - to display on the screen the information about all the events.
+c - to display on the screen the information about all the clients.
+b - to update the stored data when tickets are bought by one of the registered clients.
+r - to update the stored data when a registered client cancels/returns tickets.
+b
+please enter the first name
+Emma
+please enter the last name
+Williams
+Which event would you like to book?
+Volleyball
+How many Tickets would you like to book?
+2
+f - to finish running the program.
+e - to display on the screen the information about all the events.
+c - to display on the screen the information about all the clients.
+b - to update the stored data when tickets are bought by one of the registered clients.
+r - to update the stored data when a registered client cancels/returns tickets.
+b
+please enter the first name
+Emma
+please enter the last name
+Williams
+Which event would you like to book?
+Football
+How many Tickets would you like to book?
+2
+Max 3 events per person
+f - to finish running the program.
+e - to display on the screen the information about all the events.
+c - to display on the screen the information about all the clients.
+b - to update the stored data when tickets are bought by one of the registered clients.
+r - to update the stored data when a registered client cancels/returns tickets.
+c
+[Anna Smith {}, Emma Williams {Tennis=5, Volleyball=2, Handball=20}, John Williams {}]
+f - to finish running the program.
+e - to display on the screen the information about all the events.
+c - to display on the screen the information about all the clients.
+b - to update the stored data when tickets are bought by one of the registered clients.
+r - to update the stored data when a registered client cancels/returns tickets.
+e
+[Athletics 4, Equestrian Jumping 7, Football 2, Handball 46, Tennis 3, Volleyball 39]
+f - to finish running the program.
+e - to display on the screen the information about all the events.
+c - to display on the screen the information about all the clients.
+b - to update the stored data when tickets are bought by one of the registered clients.
+r - to update the stored data when a registered client cancels/returns tickets.
+b
+please enter the first name
+John
+please enter the last name
+Williams
+Which event would you like to book?
+Tennis
+How many Tickets would you like to book?
+20
+Not enough tickets left
+f - to finish running the program.
+e - to display on the screen the information about all the events.
+c - to display on the screen the information about all the clients.
+b - to update the stored data when tickets are bought by one of the registered clients.
+r - to update the stored data when a registered client cancels/returns tickets.
+b
+please enter the first name
+John
+please enter the last name
+Williams
+Which event would you like to book?
+Handball
+How many Tickets would you like to book?
+20
+f - to finish running the program.
+e - to display on the screen the information about all the events.
+c - to display on the screen the information about all the clients.
+b - to update the stored data when tickets are bought by one of the registered clients.
+r - to update the stored data when a registered client cancels/returns tickets.
+e
+[Athletics 4, Equestrian Jumping 7, Football 2, Handball 26, Tennis 3, Volleyball 39]
+f - to finish running the program.
+e - to display on the screen the information about all the events.
+c - to display on the screen the information about all the clients.
+b - to update the stored data when tickets are bought by one of the registered clients.
+r - to update the stored data when a registered client cancels/returns tickets.
+c
+[Anna Smith {}, Emma Williams {Tennis=5, Volleyball=2, Handball=20}, John Williams {Handball=20}]
+f - to finish running the program.
+e - to display on the screen the information about all the events.
+c - to display on the screen the information about all the clients.
+b - to update the stored data when tickets are bought by one of the registered clients.
+r - to update the stored data when a registered client cancels/returns tickets.
+r
+r - to update the stored data when a registered client cancels/returns tickets.
+please enter the first name
+Emma
+please enter the last name
+Williams
+Which event would you like to cancel a ticket for?
+Tennis
+How many tickets would you like to cancel?
+5
+f - to finish running the program.
+e - to display on the screen the information about all the events.
+c - to display on the screen the information about all the clients.
+b - to update the stored data when tickets are bought by one of the registered clients.
+r - to update the stored data when a registered client cancels/returns tickets.
+e
+[Athletics 4, Equestrian Jumping 7, Football 2, Handball 26, Tennis 8, Volleyball 39]
+f - to finish running the program.
+e - to display on the screen the information about all the events.
+c - to display on the screen the information about all the clients.
+b - to update the stored data when tickets are bought by one of the registered clients.
+r - to update the stored data when a registered client cancels/returns tickets.
+c
+[Anna Smith {}, Emma Williams {Volleyball=2, Handball=20}, John Williams {Handball=20}]
+f - to finish running the program.
+e - to display on the screen the information about all the events.
+c - to display on the screen the information about all the clients.
+b - to update the stored data when tickets are bought by one of the registered clients.
+r - to update the stored data when a registered client cancels/returns tickets.
+r
+r - to update the stored data when a registered client cancels/returns tickets.
+please enter the first name
+John
+please enter the last name
+Williams
+Which event would you like to cancel a ticket for?
+Handball
+How many tickets would you like to cancel?
+25
+You have not bought that many tickets
+f - to finish running the program.
+e - to display on the screen the information about all the events.
+c - to display on the screen the information about all the clients.
+b - to update the stored data when tickets are bought by one of the registered clients.
+r - to update the stored data when a registered client cancels/returns tickets.
+e
+[Athletics 4, Equestrian Jumping 7, Football 2, Handball 26, Tennis 8, Volleyball 39]
+f - to finish running the program.
+e - to display on the screen the information about all the events.
+c - to display on the screen the information about all the clients.
+b - to update the stored data when tickets are bought by one of the registered clients.
+r - to update the stored data when a registered client cancels/returns tickets.
+c
+[Anna Smith {}, Emma Williams {Volleyball=2, Handball=20}, John Williams {Handball=20}]
+f - to finish running the program.
+e - to display on the screen the information about all the events.
+c - to display on the screen the information about all the clients.
+b - to update the stored data when tickets are bought by one of the registered clients.
+r - to update the stored data when a registered client cancels/returns tickets.
+r
+r - to update the stored data when a registered client cancels/returns tickets.
+please enter the first name
+John
+please enter the last name
+Williams
+Which event would you like to cancel a ticket for?
+Handball
+How many tickets would you like to cancel?
+19
+f - to finish running the program.
+e - to display on the screen the information about all the events.
+c - to display on the screen the information about all the clients.
+b - to update the stored data when tickets are bought by one of the registered clients.
+r - to update the stored data when a registered client cancels/returns tickets.
+e
+[Athletics 4, Equestrian Jumping 7, Football 2, Handball 45, Tennis 8, Volleyball 39]
+f - to finish running the program.
+e - to display on the screen the information about all the events.
+c - to display on the screen the information about all the clients.
+b - to update the stored data when tickets are bought by one of the registered clients.
+r - to update the stored data when a registered client cancels/returns tickets.
+c
+[Anna Smith {}, Emma Williams {Volleyball=2, Handball=20}, John Williams {Handball=1}]
+f - to finish running the program.
+e - to display on the screen the information about all the events.
+c - to display on the screen the information about all the clients.
+b - to update the stored data when tickets are bought by one of the registered clients.
+r - to update the stored data when a registered client cancels/returns tickets.
+f - to finish running the program.
+e - to display on the screen the information about all the events.
+c - to display on the screen the information about all the clients.
+b - to update the stored data when tickets are bought by one of the registered clients.
+r - to update the stored data when a registered client cancels/returns tickets.
+b
+please enter the first name
+Emma
+please enter the last name
+Williams
+Which event would you like to book?
+Boxing
+Event not found
+f - to finish running the program.
+e - to display on the screen the information about all the events.
+c - to display on the screen the information about all the clients.
+b - to update the stored data when tickets are bought by one of the registered clients.
+r - to update the stored data when a registered client cancels/returns tickets.
+b
+please enter the first name
+Emma
+please enter the last name
+Williams
+Which event would you like to book?
+Tennis
+How many Tickets would you like to book?
+r
+Please input an Integer!
+f - to finish running the program.
+e - to display on the screen the information about all the events.
+c - to display on the screen the information about all the clients.
+b - to update the stored data when tickets are bought by one of the registered clients.
+r - to update the stored data when a registered client cancels/returns tickets.
+r - to update the stored data when a registered client cancels/returns tickets.
+please enter the first name
+Anna
+please enter the last name
+Smith
+Which event would you like to cancel a ticket for?
+Tennis
+How many tickets would you like to cancel?
+2
+The client has not bought this event
+f - to finish running the program.
+e - to display on the screen the information about all the events.
+c - to display on the screen the information about all the clients.
+b - to update the stored data when tickets are bought by one of the registered clients.
+r - to update the stored data when a registered client cancels/returns tickets.
